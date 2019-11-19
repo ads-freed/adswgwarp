@@ -22,7 +22,7 @@ pip install requests
 cd storage/shared
 rm -rf WireGuard && mkdir -p WireGuard
 cd WireGuard
-curl -4sO 'https://github.com/ads-freed/adswgwarp/blob/master/ads4freed.py'
+curl -4sO 'https://raw.githubusercontent.com/ads-freed/adswgwarp/master/ads4freed.py'
 python ads4freed.py
 cp ads4freed.conf ImportThis.conf
 clear
